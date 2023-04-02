@@ -21,7 +21,7 @@ name: Deploy ComputaCenterDemoSven to Azure Web App
 on:
   push:
     branches:
-    - ["main"]
+    - main
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'computa-center-demo-sven'
